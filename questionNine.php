@@ -1,8 +1,10 @@
-<link rel="stylesheet" href="style.css">
-    <title>Questão 9</title>
+<link rel="stylesheet" href="styleQuest.css">    <title>Questão 9</title>
     <div class="content">
         <form action="" method="post">
+            <div class="divLabel">
             <label for="select">Supla é um:</label>
+            </div>
+            <div class="divSelect">
             <select name="select" id="questNine">
                 <option value="Militar">Militar</option>
                 <option value="Jogadordefutebol">Jogador de futebol</option>
@@ -10,8 +12,10 @@
                 <option value="Militar">Militar</option>
                 <option value="Ator">Ator</option>
             </select>
-            <button>Enviar</button>
-        </form>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>        </form>
     </div>
     <?php
         session_start();

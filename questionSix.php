@@ -1,8 +1,11 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styleQuest.css">
     <title>Questão 6</title>
     <div class="content">
         <form action="" method="post">
-            <label for="select">Quantos mundiais o Palmeiras tem?</label>
+<div class="divLabel">
+<label for="select">Quantos mundiais o Palmeiras tem?</label>
+
+</div>            <div class="divSelect">
             <select name="select" id="questSix">
                 <option value="0">Error, Palmeiras don't have worldwide</option>
                 <option value="0">Error, Palmeiras don't have worldwide</option>
@@ -10,8 +13,10 @@
                 <option value="0">Error, Palmeiras don't have worldwide</option>
                 <option value="0">Error, Palmeiras don't have worldwide</option>
             </select>
-            <button>Enviar</button>
-        </form>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>        </form>
     </div>
     <?php
         session_start();

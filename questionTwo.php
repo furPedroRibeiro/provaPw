@@ -1,8 +1,11 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styleQuest.css">
     <title>Questão 2</title>
     <div class="content">
         <form action="" method="post">
+            <div class="divLabel">
             <label for="select">Quantos albuns o sex pistols tem?</label>
+            </div>
+            <div class="divSelect">
             <select name="select" id="questTwo">
                 <option value="3">3</option>
                 <option value="6">6</option>
@@ -10,8 +13,10 @@
                 <option value="4">4</option>
                 <option value="8">8</option>
             </select>
-            <button>Enviar</button>
-        </form>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>        </form>
     </div>
     <?php
         session_start();

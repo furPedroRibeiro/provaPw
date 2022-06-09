@@ -1,8 +1,10 @@
-<link rel="stylesheet" href="style.css">
-    <title>Questão 3</title>
+<link rel="stylesheet" href="styleQuest.css">    <title>Questão 3</title>
     <div class="content">
         <form action="" method="post">
+            <div class="divLabel">
             <label for="select">A Torre Eiffel fica em:</label>
+            </div>
+            <div class="divSelect">
             <select name="select" id="questThree">
                 <option value="California">California</option>
                 <option value="Paris">Paris</option>
@@ -10,8 +12,10 @@
                 <option value="Rio de Janeiro">Rio de Janeiro</option>
                 <option value="Estolcomo">Estolcomo</option>
             </select>
-            <button>Enviar</button>
-        </form>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>        </form>
     </div>
     <?php
         session_start();

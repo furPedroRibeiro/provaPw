@@ -1,7 +1,20 @@
 body{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: bisque;
+  
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 2vh;
+}
+.divSelect, .btnDiv{
+  margin-top: 1.5vh;
+}
+.btnDefault{
+  width: 13vw;
+  height: 5vh;
+  background-color: rgb(33, 104, 235);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }

@@ -1,17 +1,22 @@
-
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styleQuest.css">
     <title>Questão 1</title>
     <div class="content">
         <form action="" method="post">
-            <label for="select">Quantas copas o Brasil tem?</label>
-            <select name="select" id="questOne">
-                <option value="3">3</option>
-                <option value="6">6</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="8">8</option>
-            </select>
-            <button>Enviar</button>
+            <div class="divLabel">
+                <label for="select">Quantas copas o Brasil tem?</label>
+            </div>
+            <div class="divSelect">
+                <select name="select" id="questOne">
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="8">8</option>
+                </select>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>
         </form>
     </div>
     <?php

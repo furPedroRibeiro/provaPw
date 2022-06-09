@@ -4,19 +4,27 @@
     box-sizing: border-box;
 }
 body{
-    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contentPage{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     width: 40vw;
-    justify-content: center;
+    margin-inline: auto;
+
+    margin-top: 5vh;
+}
+.contentPage input{
+    width: 10vw;
+
+    margin-block: 1vh;
 }
 .btnDefault{
     width: 10vw;
     height: 5vh;
-    background-color: rgb(33, 137, 235);
+    background-color: rgb(33, 104, 235);
     border: none;
     border-radius: 5px;
 }

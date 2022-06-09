@@ -1,8 +1,10 @@
-<link rel="stylesheet" href="style.css">
-    <title>Questão 7</title>
+<link rel="stylesheet" href="styleQuest.css">    <title>Questão 7</title>
     <div class="content">
         <form action="" method="post">
+            <div class="divLabel">
             <label for="select">Qual das opções é um laço de repetição?</label>
+            </div>
+            <div class="divSelect">
             <select name="select" id="questSeven">
                 <option value="if">if</option>
                 <option value="dowhile">do while</option>
@@ -10,8 +12,10 @@
                 <option value="let">let</option>
                 <option value="switch">switch</option>
             </select>
-            <button>Enviar</button>
-        </form>
+            </div>
+            <div class="btnDiv">
+                <button class="btnDefault">Enviar</button>
+            </div>        </form>
     </div>
     <?php
         session_start();
