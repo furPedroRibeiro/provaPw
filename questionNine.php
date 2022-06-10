@@ -9,7 +9,7 @@
                 <option value="Militar">Militar</option>
                 <option value="Jogadordefutebol">Jogador de futebol</option>
                 <option value="Rapper">Rapper</option>
-                <option value="Militar">Militar</option>
+                <option value="Cantor">Cantor</option>
                 <option value="Ator">Ator</option>
             </select>
             </div>
